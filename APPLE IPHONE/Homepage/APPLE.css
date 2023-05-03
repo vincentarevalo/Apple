@@ -641,11 +641,14 @@ body::-webkit-scrollbar {
  
 .header{
   display: flex;
-  width: 100%;
+  width: 600px;
   align-items: center;
   justify-content: center;
 
   position: fixed;
+}
+.videotitle{
+  width: 100%;
 }
   .iphonevideo {
     width: 100% !important;
@@ -669,7 +672,7 @@ body::-webkit-scrollbar {
 
   .grid-container {
     padding-top: 10px;
-    width: 600px;
+    width: 100%;
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(6, 450px);
     gap: 20px;
@@ -680,14 +683,14 @@ body::-webkit-scrollbar {
   }
   .box2 {
     margin-left: -100px;
-    width: 350px;
+    width: 280px;
   }
   .box2 h1 {
     font-size: 20px;
   }
   .box3 {
     margin-left: -100px;
-    width: 300px;
+    width: 280px;
     background-size: 80%;
   }
 
@@ -730,5 +733,32 @@ body::-webkit-scrollbar {
     position: relative;
     right: 50px;
     margin-top: 90px;
+    width: 260px;
   }
+
+  .commercial3{
+    width: 600px;
+    padding: 0;
+  }
+
+.commercial3 video{
+  width: 100% !important;
+  height: 500px;
+}
+.iphonebig{
+  width: 100%;
+}
+.iphone_gif{
+  width: 100%;
+}
+.footer img{
+  width: 100%;
+}
+.copyright{
+ display: none;
+}
+.service{
+  right: 50px;
+
+}
 }
