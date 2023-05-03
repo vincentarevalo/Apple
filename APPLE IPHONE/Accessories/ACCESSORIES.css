@@ -456,7 +456,7 @@ body::-webkit-scrollbar{
   color: black;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body{
     width: 1450px;
   }

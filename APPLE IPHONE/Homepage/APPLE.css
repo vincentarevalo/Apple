@@ -761,4 +761,8 @@ body::-webkit-scrollbar {
   right: 50px;
 
 }
+
+.iphone14dp{
+  width: 100%;
+}
 }
