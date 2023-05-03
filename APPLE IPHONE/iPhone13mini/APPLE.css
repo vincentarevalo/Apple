@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  background-color: #818589;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px 0 0;
+  height: 40px;
+  z-index: 3;
+}
+
+.customer {
+  display: flex;
+
+  position: absolute;
+}
+.service {
+  height: 80px;
+  position: fixed;
+  z-index: 4;
+  cursor: pointer;
+  margin-left: 1800px;
+  margin-top: 800px;
+}
+
+.customerservice {
+  position: fixed;
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  margin-top: 300px;
+  margin-left: 1450px;
+
+  font-family: helvetica;
+  text-align: center;
+  z-index: 4;
+  display: none;
+  animation: pop 2s;
+}
+
+@keyframes pop {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.title {
+  background-image: linear-gradient(#51a9ee, #147bcd);
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.title a {
+  text-decoration: none;
+  color: white;
+}
+.fa-apple {
+  padding-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.navigator {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab {
+  margin-right: 10px;
+  color: white;
+  font-family: helvetica;
+}
+
+.tab a {
+  text-decoration: none !important;
+  color: white;
+  transition: ease-in 0.3s;
+}
+
+.tab a:hover {
+  cursor: pointer;
+  color: gold;
+}
+
+.icon {
+  padding-left: 20px;
+}
+
+.separator {
+  background-color: white;
+  height: 60px;
+}
+
+.content {
+  padding-top: 60px;
+  background-color: black;
+  height: auto;
+  animation-name: content;
+  animation-duration: 5s;
+}
+
+@keyframes content {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+.descript {
+  position: absolute;
+  padding-left: 1000px;
+
+  color: white;
+  font-family: helvetica;
+}
+
+.iphonepadding {
+  padding-bottom: 40px;
+}
+.gif {
+  margin-left: 200px;
+  margin-bottom: 200px;
+}
+.homepage2 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: helvetica;
+  padding-bottom: 70px;
+}
+.homepageimg {
+  padding-top: 100px;
+}
+
+.buy {
+  font-size: 17px;
+
+  background-color: #0071e3;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 980px;
+  margin-top: 30px;
+  font-family: helvetica;
+  margin-left: 850px;
+  position: absolute;
+}
+
+.learnmore {
+  font-size: 17px;
+
+  background-color: #0071e3;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 980px;
+  margin-top: 30px;
+  font-family: helvetica;
+  margin-left: 950px;
+  position: absolute;
+}
+
+.learnmore a {
+  text-decoration: none;
+  color: white;
+}
+
+.buy a {
+  text-decoration: none;
+  color: white;
+}
+
+.commercial {
+  padding-top: 50px;
+  padding-left: 65px;
+}
+
+.iphonebig {
+  padding-top: 50px;
+  width: 1000px;
+}
+
+.iphone_container {
+  background-color: black;
+  position: relative;
+  display: flex;
+}
+
+.commercial3 {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+}
+
+.big {
+  background-color: #fffafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphonegif {
+  display: flex;
+  background-image: linear-gradient(to bottom, #28282b, black);
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  width: 100%;
+}
+
+.iphone_gif {
+  border: solid black 1px;
+  border-radius: 10%;
+}
+
+.iphone_container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  height: 1000px;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footertext1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footertext {
+  font-size: 17px;
+  color: white;
+  background-color: #0071e3;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 980px;
+  margin-top: 40px;
+  font-family: helvetica;
+  margin-left: 10px;
+}
+
+.footertext a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: helvetica;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,711 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  background-color: black;
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px 0 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+ 
+}
+
+.navigator {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.fa-apple {
+  padding-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tab {
+  margin-right: 10px;
+  color: white;
+  font-family: helvetica;
+ 
+}
+
+
+.tab a {
+  text-decoration: none !important;
+  color: white;
+  transition: ease-in 0.3s;
+ 
+
+}
+
+.tab a:hover {
+  cursor: pointer;
+  color: gold;
+
+}
+
+.cart {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+ 
+}
+
+.icon {
+  padding-left: 20px;
+}
+
+.addtocart {
+  position: fixed;
+  top: 60;
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  background-color: white;
+  transition: right 0.3s ease-in-out;
+  z-index: 5;
+}
+
+.addtocart.open {
+  right: 0;
+}
+.close {
+  position: absolute;
+  top: 50%;
+}
+
+.addtocartdiv {
+  position: fixed;
+  top: 60px;
+
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  background-color: white;
+  transition: right 0.3s ease-in-out;
+  z-index: 5;
+  overflow-y: scroll;
+}
+
+.addtocartdiv.open {
+  right: 0;
+}
+
+.cartimage {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.quantity {
+  font-size: 20px;
+  width: 40px;
+}
+
+.clearitem {
+  font-size: 20px;
+}
+
+.cartcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-and-price {
+  display: grid;
+  padding: 20px;
+  gap: 20px;
+}
+.price-item {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.totalprice {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.checkout{
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.checkoutbutton{
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.checkout :hover{
+  background-color: gold;
+}
+
+
+.fa-angle-right {
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  color: gold;
+  position: absolute;
+  font-size: 30px;
+}
+
+.addtocart h1 {
+  font-size: 40px;
+  font-family: helvetica;
+  background-color: rgb(193, 165, 5);
+  color: white;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+.addtocart h2 {
+  font-size: 30px;
+  font-family: helvetica;
+
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.addtocartdiv h1 {
+  font-size: 40px;
+  font-family: helvetica;
+  background-color: rgb(193, 165, 5);
+  color: white;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+.addtocartdiv h2 {
+  font-size: 30px;
+  font-family: helvetica;
+
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.header2 {
+  background-color: #252525;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px 0 0;
+  margin-top: 55px;
+  height: 68px;
+}
+
+.navigator {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-apple {
+  padding-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tab {
+  margin-right: 10px;
+  color: white;
+  font-family: helvetica;
+}
+
+.tab a {
+  text-decoration: none !important;
+  color: white;
+  transition: ease-in 0.3s;
+}
+
+.tab a:hover {
+  cursor: pointer;
+  color: gold;
+}
+.overview a {
+  color: gold;
+}
+
+.buy {
+  font-size: 17px;
+  color: white;
+  background-color: #0071e3;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 980px;
+
+  font-family: helvetica;
+}
+
+.form {
+  background: linear-gradient(gold, pink);
+  height: 600px;
+  width: 700px;
+  padding-bottom: 50px;
+
+  flex-direction: column;
+  font-size: 20px;
+  font-family: helvetica;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  z-index: 7;
+  line-height: 30px;
+  padding-top: 30px;
+  display: flex;
+  visibility: hidden;
+  border-radius: 10px;
+  animation: pop 3s;
+}
+
+.shoppingcart {
+  background-color: #faf9f6;
+  height: 500px;
+  width: 400px;
+  position: absolute;
+}
+
+#fname {
+  width: 50%;
+  height: 30px;
+  padding: 10px;
+}
+#email {
+  width: 50%;
+  height: 30px;
+  padding: 10px;
+}
+#adr {
+  width: 50%;
+  height: 30px;
+  padding: 10px;
+}
+#city {
+  width: 50%;
+  height: 30px;
+  padding: 10px;
+}
+
+.paymentoption {
+  display: flex;
+  margin-top: 20px;
+
+  flex-direction: column;
+}
+
+.proceed {
+  font-size: 15px;
+  margin-top: 40px;
+}
+.cancelled {
+  font-size: 15px;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+
+
+
+.container {
+  background-color: white;
+}
+
+.Iphone {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 70px;
+  margin-left: 20px;
+  max-width: auto;
+  background-color: #faf9f6;
+}
+.version2 {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.tagline {
+  font-size: 50px;
+  font-family: helvetica;
+}
+
+.gridspecs {
+  display: grid;
+  gap: 60px;
+  grid-row-gap: 150px;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(2, 400px);
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  background-color: #000;
+  padding-bottom: 80px;
+  line-height: 25px;
+  font-family: helvetica;
+}
+
+.details {
+  border: 1px solid white;
+  border-radius: 10%;
+  min-height: 500px;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, black, grey);
+ 
+}
+
+
+
+
+
+.text {
+  color: white;
+  text-align: justify;
+  padding: 10px 10px 10px 10px;
+  font-family: helvetica;
+}
+
+.model {
+  margin-top: 40px;
+
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphone14pro {
+  padding: -40px;
+  transition: 1.5s ease-in-out;
+}
+
+.iphone14pro2 {
+  padding: -40px;
+}
+
+.iphone12mini {
+  padding-bottom: 100px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  margin-top: 300px;
+  cursor: pointer;
+  color: #000;
+  text-shadow: white;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(20, 300px);
+  grid-template-rows: repeat(1, auto);
+  overflow-x: hidden;
+  margin-left: 10px;
+}
+
+.box {
+  min-height: 350px;
+}
+
+.top a {
+  text-decoration: none;
+  color: #000;
+}
+
+.commercial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pictures {
+  grid-template-columns: 800px 800px;
+  grid-template-rows: 800px 800px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  padding-top: 40px;
+  gap: 30px;
+  padding-bottom: 40px;
+  padding-top: 100px;
+}
+
+.sample {
+  position: relative;
+
+  min-height: 800px;
+  min-width: 800px;
+}
+
+.image1 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.image2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  padding-top: 60px;
+}
+
+.descript {
+  padding-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 600px);
+  grid-template-rows: repeat(10, auto);
+  justify-content: center;
+  padding-bottom: 150px;
+  background-color: black;
+}
+
+.script {
+  border: groove white 1px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 50px;
+  font-family: helvetica;
+}
+
+.specs1 {
+  background-image: linear-gradient(to right, black, #3d3d3d);
+  color: white;
+}
+
+.specs {
+  background-image: linear-gradient(to left, black, #3d3d3d);
+  color: white;
+  padding: 10px 50px;
+  line-height: 25px;
+}
+
+.specs2 {
+  background-color: #3d3d3d;
+  color: white;
+  line-height: 25px;
+  padding: 10px 50px;
+}
+
+.product {
+  font-family: helvetica;
+  padding-top: 80px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.box button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.box button:hover {
+  opacity: 0.7;
+}
+
+.box img {
+  height: 400px;
+  width: 30px;
+  object-fit: cover;
+}
+.version1 {
+  position: relative;
+}
+
+.version1 .iphonehover1 {
+  position: absolute;
+  animation: moouseout 0.3s both;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.version1:hover .iphonehover1 {
+  animation: imagetransition 0.3s both;
+}
+
+@keyframes imagetransition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moouseout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.footer {
+  background-color: blue;
+  color: white;
+  font-size: 70px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: helvetica;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: black;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+
+  .header2{
+    width: 1200px;
+  }
+  .videocontent{
+    width: 1200px
+  }
+
+  .Iphone img{
+    width: 600px;
+   
+  }
+
+  .version2{
+    margin-left: 50px;
+    width: 400px;
+    font-size: 30px;
+  }
+  .gridspecs{
+    width: 1200px;
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows: repeat(3,400px);
+  }
+
+  .commercial{
+    width: 1200px;
+  }
+  .commercial video{
+    width: 1200px;
+  }
+ .pictures{
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 600px 600px;
+  gap: 30px;
+  width: 1200px;
+ 
+
+  
+ }
+
+ .sample{
+  min-width:400px;
+  min-height: 400px;
+  }
+
+ .sample img{
+  width:500px;
+  height: 500px;
+  }
+
+ .descript{
+  width: 1200px;
+  grid-template-columns: repeat(3, 400px);
+ }
+ .product{
+  width: 1200px;
+ }
+ .grid{
+  width: 1200px;
+ }
+
+ .arrow{
+  width: 1200px;
+ }
+  
+  }
+ 

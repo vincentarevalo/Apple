@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px 0 0;
+  height: 80px;
+}
+
+.navigator {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-apple {
+  padding-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tab {
+  margin-right: 10px;
+  color: white;
+  font-family: helvetica;
+}
+
+.tab a {
+  text-decoration: none !important;
+  color: white;
+  transition: ease-in 0.3s;
+}
+
+.tab a:hover {
+  cursor: pointer;
+  color: gold;
+}
+
+.cart {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding-left: 20px;
+}
+
+.header2 {
+  background-color: #252525;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px 0 0;
+  height: 68px;
+}
+
+.navigator {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-apple {
+  padding-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tab {
+  margin-right: 10px;
+  color: white;
+  font-family: helvetica;
+}
+
+.tab a {
+  text-decoration: none !important;
+  color: white;
+  transition: ease-in 0.3s;
+}
+
+.tab a:hover {
+  cursor: pointer;
+  color: gold;
+}
+.gallery a{
+  color: gold;
+}
+.buy {
+  font-size: 17px;
+  color: white;
+  background-color: #0071e3;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 980px;
+
+  font-family: helvetica;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+   
+  }
