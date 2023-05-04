@@ -737,12 +737,12 @@ body::-webkit-scrollbar {
   }
 
   .commercial3{
-    width:600px;
+    width:600px !important;
     padding: 0;
   }
 
 .commercial3 video{
-  width: 600px;
+  width: 600px !important;
   height: 500px;
   
 }
