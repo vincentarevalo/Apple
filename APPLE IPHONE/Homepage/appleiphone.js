@@ -10,17 +10,18 @@ function service() {
 const myVideo = document.getElementById("myVideo");
 const hoveriphone = document.getElementById("hoveriphone");
 
-myVideo.addEventListener("ended", function() {
+myVideo.addEventListener("ended", function () {
+ 
   hoveriphone.style.display = "flex";
 });
 
-hoveriphone.addEventListener("click", function() {
+hoveriphone.addEventListener("click", function () {
   hoveriphone.style.display = "none";
   myVideo.play();
 });
 
-const arrowup = document.querySelector('.returnup');
+const arrowup = document.querySelector(".returnup");
 
-arrowup.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+arrowup.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
