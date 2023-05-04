@@ -637,35 +637,49 @@ body::-webkit-scrollbar {
   color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
  
 .header{
   display: flex;
-  width: 600px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 
   position: fixed;
 }
-.videotitle{
-  width: 100%;
+.separator{
+  width: 740px;
 }
-  .iphonevideo {
-    width: 100% !important;
-    height: 500px !important;
-    padding-top: 0px;
-  }
+.homepagevideo{
+  width: 100% !important;
+}
+.videotitle{
+  width: 740px;
+}
+.iphonevideo{
+  width: 740px !important;
+}
+ .content{
+  width: 740px !important;
+ }
+
   .hoverimage {
     height: 400px !important;
-    width: 500px !important;
+    width: 100% !important;
   }
 
   .ip14procontainer {
     padding-top: 0px;
   }
+.container{
+  width: 740px;
+}
+  .descript{
+    padding-top: 30px;
+  }
 
   .homepageimg {
-    width: 600px;
+    width: 740px;
     height: 400px;
     padding-top: 20px;
   }
@@ -678,49 +692,67 @@ body::-webkit-scrollbar {
     gap: 20px;
   }
 
+  .grid-item{
+    width: 740px;
+   
+  }
   .box1 {
     width: 80%;
   }
   .box2 {
     margin-left: -100px;
-    width: 280px;
+    width: 340px;
+    height: 100%;
+  
   }
+
+
   .box2 h1 {
     font-size: 20px;
   }
   .box3 {
     margin-left: -100px;
-    width: 280px;
+    width: 340px;
     background-size: 80%;
   }
 
   .box3 h1 {
     font-size: 35px;
   }
-
+.box4{
+  width: 240px !important;
+}
   .box4 h1 {
     font-size: 60px;
+  
   }
 
   .box5 {
-    width: 400px;
+    width: 430px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 30px;
+   
+   
   }
-  .box6 video {
+
+  .box6{
     width: 240px;
   }
+  .box6 video {
+    width: 240px !important;
+  }
   .box7 {
-    width: 350px;
+    width: 430px;
     background-size: 120%;
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .box8 {
     width: 350px;
     margin-top: -250px;
   }
   .box9 {
-    width: 250px;
+    width: 320px;
     margin-top: 1160px;
     margin-left: -80px;
     background-size: 150%;
@@ -733,16 +765,16 @@ body::-webkit-scrollbar {
     position: relative;
     right: 50px;
     margin-top: 90px;
-    width: 260px;
+    width: 320px;
   }
 
   .commercial3{
-    width:600px !important;
+    width:740px !important;
     padding: 0;
   }
 
 .commercial3 video{
-  width: 600px !important;
+  width: 740px !important;
   height: 500px;
   
 }
