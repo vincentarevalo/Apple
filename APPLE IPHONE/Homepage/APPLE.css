@@ -637,11 +637,11 @@ body::-webkit-scrollbar {
   color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
  
 .header{
   display: flex;
-  width: 600px;
+  width: 740px;
   align-items: center;
   justify-content: center;
 
@@ -737,13 +737,14 @@ body::-webkit-scrollbar {
   }
 
   .commercial3{
-    width: 600px;
+    width:740px;
     padding: 0;
   }
 
 .commercial3 video{
-  width: 100% !important;
+  width: 740px;
   height: 500px;
+  
 }
 .iphonebig{
   width: 100%;
