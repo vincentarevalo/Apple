@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
   background: black;
 }
 .videotitle {
-  font-size: 50px;
+  font-size: 80px;
   z-index: 4;
   font-family: "sf pro display";
 
@@ -164,7 +164,7 @@ body::-webkit-scrollbar {
 }
 
 .iphonevideo {
-  padding-top: 40px;
+  padding-top: 80px;
   height: 700px;
   width: 1700px;
   background: black;
@@ -177,6 +177,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   display: none;
   animation: fade-in 1s;
+  padding-top: 150px;
 }
 
 @keyframes fade-in {
@@ -568,12 +569,39 @@ body::-webkit-scrollbar {
   align-items: center;
   height: 1000px;
   width: 100%;
+
+  position: relative;
 }
 
-.iphone_gif {
-  border: solid black 1px;
-  border-radius: 10%;
+.iphonetitle{
+  color: #161617;
+  z-index: 1;
+  position: absolute;
+  font-family: "SF Pro Display";
+  text-align: center;
+  font-size: 40px;
 }
+
+.iphonetitle h2{
+  font-size: 20px;
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+.iphonetitle h3{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.iphonetitle a{
+  text-decoration: none;
+  color: #0066CC;
+}
+
+
 
 .iphone_container {
   display: flex;
@@ -672,6 +700,14 @@ body::-webkit-scrollbar {
   }
   .container {
     width: 1024px;
+  }
+  
+  .iphone_gif{
+    width: 740px !important;
+  }
+  .iphonetitle h1{
+    font-size: 40px;
+    
   }
   .descript {
     padding-top: 30px;
@@ -818,6 +854,12 @@ body::-webkit-scrollbar {
     width: 100% !important;
   }
 
+  .iphonegif{
+    width: 100%;
+  }
+  .iphonepicture{
+    width: 100%;
+  }
   .ip14procontainer {
     padding-top: 0px;
   }
