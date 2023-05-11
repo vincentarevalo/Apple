@@ -668,26 +668,25 @@ body::-webkit-scrollbar {
   gap: 15px;
 }
 
-
-@media (max-width: 740px) {
+@media (max-width: 1024px) {
   body {
-    width: 740px;
+    width: 1024px;
   }
- .header {
+  .header {
     justify-content: center;
   }
   .homepagevideo {
     width: 100% !important;
   }
   .videotitle {
-    width: 740px;
+    width: 1024px;
     text-align: center;
   }
   .iphonevideo {
-    width: 740px !important;
+    width: 1024px !important;
   }
   .content {
-    width: 740px !important;
+    width: 1024px !important;
     overflow: hidden;
   }
 
@@ -695,24 +694,26 @@ body::-webkit-scrollbar {
     height: 400px !important;
   }
 
-  .iphonegif{
-    width: 100%;
-  }
-  .iphonepicture{
-    width: 100%;
-  }
   .ip14procontainer {
     padding-top: 0px;
   }
   .container {
-    width: 740px;
+    width: 1024px;
+  }
+  
+  .iphone_gif{
+    width: 1024px !important;
+  }
+  .iphonetitle h1{
+    font-size: 40px;
+    
   }
   .descript {
     padding-top: 30px;
   }
 
   .homepageimg {
-    width: 740px;
+    width: 1024px;
     height: 400px;
     padding-top: 20px;
   }
@@ -726,7 +727,7 @@ body::-webkit-scrollbar {
   }
 
   .grid-item {
-    width: 740px;
+    width: 1024px;
   }
   .box1 {
     width: 80%;
@@ -796,12 +797,12 @@ body::-webkit-scrollbar {
   }
 
   .commercial3 {
-    width: 740px !important;
+    width: 1024px !important;
     padding: 0;
   }
 
   .commercial3 video {
-    width: 740px !important;
+    width: 1024px !important;
     height: 500px;
   }
   .iphonebig {
@@ -821,6 +822,6 @@ body::-webkit-scrollbar {
   }
 
   .iphone14dp {
-    width: 100%;
+    width: 80%;
   }
 }
