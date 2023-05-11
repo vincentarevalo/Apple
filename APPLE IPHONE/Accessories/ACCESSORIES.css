@@ -30,6 +30,11 @@ body::-webkit-scrollbar{
   z-index: 3;
 }
 
+.separator {
+  background-color: grey;
+  height: 50px;
+}
+
 .customer {
   display: flex;
 
@@ -428,7 +433,9 @@ body::-webkit-scrollbar{
   justify-content: space-between;
   margin: 0 auto;
   display: flex;
+  cursor: pointer;
   align-items: center;
+  
   
 }
 

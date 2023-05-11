@@ -210,7 +210,7 @@ body::-webkit-scrollbar {
   justify-content: center;
 }
 .iphone14dp {
-  padding-top: 50pxs;
+  padding-top: 50px;
 }
 
 .homepage2 {
@@ -822,6 +822,8 @@ body::-webkit-scrollbar {
   }
 
   .iphone14dp {
-    width: 80%;
+    width: 65%;
   }
+
+  
 }
