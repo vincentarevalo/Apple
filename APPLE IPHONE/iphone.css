@@ -523,12 +523,12 @@
 }
 
 .specs1 {
-  background-image: linear-gradient(to bottom, black, #3d3d3d);
+  background-image: linear-gradient(to right, black, #3d3d3d);
   color: white;
 }
 
 .specs {
-  background-image: linear-gradient(to bottom, black, #3d3d3d);
+  background-image: linear-gradient(to left, black, #3d3d3d);
   color: white;
   padding: 10px 50px;
   line-height: 25px;
