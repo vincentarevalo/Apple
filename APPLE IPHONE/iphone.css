@@ -534,6 +534,12 @@
   line-height: 25px;
 }
 
+.specs2 {
+  background-color: #3d3d3d;
+  color: white;
+  line-height: 25px;
+  padding: 10px 50px;
+}
 
 
 .product {
