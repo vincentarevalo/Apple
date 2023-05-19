@@ -48,37 +48,36 @@
           ></i>
         </div>
       </div>
-
-
-   
-      <div class="addtocartdiv">
-        <h1>My Cart</h1>
-        <h2 class="cartheader">Your cart is empty</h2>
-        <hr />
-        <div class="cart-items"></div>
-
-        <div class="totalprice">
-          <h6>Total: <span class="total-price"> </span></h6>
-        </div>
-        <div class="checkout" onclick="checkout()"><button class="checkoutbutton"><h3>Proceed To Checkout:</h3></button></div>
-
-        <div class="close" onclick="closed()">
-          <i class="fas fa-angle-right"></i>
-        </div>
-      </div>
-      <script>
-      
-        function checkout(){
-          let checkoutForm = document.querySelector('.form')
-  let computedStyle = getComputedStyle(checkoutForm);
-  if (computedStyle.visibility === 'hidden'){
-    checkoutForm.style.visibility = "visible"
-  } else {
-    checkoutForm.style.visibility = "hidden"
-  }
-}
-      </script>
     </div>
+
+    <div class="addtocartdiv">
+      <h1>My Cart</h1>
+      <h2 class="cartheader">Your cart is empty</h2>
+      <hr />
+      <div class="cart-items"></div>
+
+      <div class="totalprice">
+        <h6>Total: <span class="total-price"> </span></h6>
+      </div>
+      <div class="checkout" onclick="checkout()">
+        <button class="checkoutbutton"><h3>Proceed To Checkout:</h3></button>
+      </div>
+
+      <div class="close" onclick="closed()">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </div>
+    <script>
+      function checkout() {
+        let checkoutForm = document.querySelector(".form");
+        let computedStyle = getComputedStyle(checkoutForm);
+        if (computedStyle.visibility === "hidden") {
+          checkoutForm.style.visibility = "visible";
+        } else {
+          checkoutForm.style.visibility = "hidden";
+        }
+      }
+    </script>
 
     <div class="header2">
       <div class="imagebg">
@@ -94,14 +93,24 @@
           <a href="./galleryiphone14.html">Gallery</a>
         </div>
 
-        <div class="tab buy"><a href="https://www.apple.com/ph/shop/buy-iphone/iphone-14">Buy now</a></div>
+        <div class="tab buy">
+          <a href="https://www.apple.com/ph/shop/buy-iphone/iphone-14"
+            >Buy now</a
+          >
+        </div>
       </div>
     </div>
 
     <div class="videocontent">
-      <video src="../iPhoneVideo/iPhone14andplus.mp4"  loop controls autoplay muted width="100%"></video>
+      <video
+        src="../iPhoneVideo/iPhone14andplus.mp4"
+        loop
+        controls
+        autoplay
+        muted
+        width="100%"
+      ></video>
     </div>
-
 
     <div class="container">
       <div class="Iphone">

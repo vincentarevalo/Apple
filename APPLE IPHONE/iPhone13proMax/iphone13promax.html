@@ -41,7 +41,7 @@
         <div class="tab">
           <a href="https://www.iphonefaq.org/faq"> FAQS</a>
         </div>
-        <div class="tab cart"  onclick="toggleCart()">
+        <div class="tab cart" onclick="toggleCart()">
           <i
             class="fa fa-shopping-cart"
             style="font-size: 36px; color: white"
@@ -50,7 +50,6 @@
       </div>
     </div>
 
-   
     <div class="addtocartdiv">
       <h1>My Cart</h1>
       <h2 class="cartheader">Your cart is empty</h2>
@@ -60,26 +59,25 @@
       <div class="totalprice">
         <h6>Total: <span class="total-price"> </span></h6>
       </div>
-      <div class="checkout" onclick="checkout()"><button class="checkoutbutton"><h3>Proceed To Checkout:</h3></button></div>
+      <div class="checkout" onclick="checkout()">
+        <button class="checkoutbutton"><h3>Proceed To Checkout:</h3></button>
+      </div>
 
       <div class="close" onclick="closed()">
         <i class="fas fa-angle-right"></i>
       </div>
     </div>
     <script>
-    
-      function checkout(){
-        let checkoutForm = document.querySelector('.form')
-let computedStyle = getComputedStyle(checkoutForm);
-if (computedStyle.visibility === 'hidden'){
-  checkoutForm.style.visibility = "visible"
-} else {
-  checkoutForm.style.visibility = "hidden"
-}
-}
+      function checkout() {
+        let checkoutForm = document.querySelector(".form");
+        let computedStyle = getComputedStyle(checkoutForm);
+        if (computedStyle.visibility === "hidden") {
+          checkoutForm.style.visibility = "visible";
+        } else {
+          checkoutForm.style.visibility = "hidden";
+        }
+      }
     </script>
-    </div>
-    
 
     <div class="header2">
       <div class="imagebg">
@@ -95,14 +93,24 @@ if (computedStyle.visibility === 'hidden'){
           <a href="Gallery13promax.html">Gallery</a>
         </div>
 
-        <div class="tab buy"><a href="https://beyondthebox.ph/products/iphone-13-pro-max">Buy now</a></div>
+        <div class="tab buy">
+          <a href="https://beyondthebox.ph/products/iphone-13-pro-max"
+            >Buy now</a
+          >
+        </div>
       </div>
     </div>
 
     <div class="videocontent">
-      <video src="../iPhoneVideo/iPhone13promaxvid.mp4"  loop controls autoplay muted width="100%"></video>
+      <video
+        src="../iPhoneVideo/iPhone13promaxvid.mp4"
+        loop
+        controls
+        autoplay
+        muted
+        width="100%"
+      ></video>
     </div>
-
 
     <div class="container">
       <div class="Iphone">
@@ -139,15 +147,16 @@ if (computedStyle.visibility === 'hidden'){
             <i class="fa fa-camera" style="font-size: 300px; color: white"></i>
             <h3 class="text">
               Pro 12MP camera system: Telephoto, Wide, and Ultra Wide cameras
-              Telephoto: ƒ/2.8 aperture Wide: ƒ/1.5 aperture Ultra Wide: ƒ/1.8 aperture and 120° field of view
+              Telephoto: ƒ/2.8 aperture Wide: ƒ/1.5 aperture Ultra Wide: ƒ/1.8
+              aperture and 120° field of view
             </h3>
           </div>
           <div class="details specification2">
             <img src="./iphonecpu.png" width="300px" height="300px" />
-            <h3 class="text">A15 Bionic chip
-              New 6‑core CPU with 2 performance and 4 efficiency cores
-              New 5‑core GPU
-              New 16‑core Neural Engine</h3>
+            <h3 class="text">
+              A15 Bionic chip New 6‑core CPU with 2 performance and 4 efficiency
+              cores New 5‑core GPU New 16‑core Neural Engine
+            </h3>
           </div>
           <div class="details specification3 phone">
             <i
@@ -155,10 +164,8 @@ if (computedStyle.visibility === 'hidden'){
               style="font-size: 300px; color: white"
             ></i>
             <h3 class="text">
-              Super Retina XDR display with ProMotion
-            6.7‑inch (diagonal) all‑screen OLED display
-            2778‑by‑1284-pixel resolution at 458 ppi
-
+              Super Retina XDR display with ProMotion 6.7‑inch (diagonal)
+              all‑screen OLED display 2778‑by‑1284-pixel resolution at 458 ppi
             </h3>
           </div>
           <div class="details specification4">
@@ -171,12 +178,8 @@ if (computedStyle.visibility === 'hidden'){
               style="font-size: 280px; color: white"
             ></i>
             <h3 class="text">
-              Video playback:
-            Up to 28 hours
-            Video playback (streamed):
-            Up to 25 hours
-            Audio playback:
-            Up to 95 hours
+              Video playback: Up to 28 hours Video playback (streamed): Up to 25
+              hours Audio playback: Up to 95 hours
             </h3>
           </div>
           <div class="details specification6">
@@ -442,7 +445,7 @@ if (computedStyle.visibility === 'hidden'){
             <a href="../iPhoneXR/iPhoneXR.html">
               <img src="./iphone_xr.png" alt="" style="width: 100%" />
             </a>
-      
+
             <h1>iPhone XR</h1>
             <div
               style="
@@ -474,7 +477,7 @@ if (computedStyle.visibility === 'hidden'){
             </select>
             <button onclick="myFunction('optioncart1')">Add to Cart</button>
           </div>
-      
+
           <div class="box grid2">
             <a href="../iPhoneXS/iPhoneXS.html">
               <img src="./iphoneXS.png" alt="" style="width: 100%" />
@@ -502,7 +505,7 @@ if (computedStyle.visibility === 'hidden'){
               <option>(09)</option>
               <option>(10)</option>
             </select>
-      
+
             <button onclick="myFunction('optioncart2')">Add to Cart</button>
           </div>
           <div class="box grid3">
@@ -614,7 +617,7 @@ if (computedStyle.visibility === 'hidden'){
             </select>
             <button onclick="myFunction('optioncart7')">Add to Cart</button>
           </div>
-      
+
           <div class="box grid8">
             <a href="../iPhone12/iPhone12.html">
               <img src="./iphone12.png" alt="" style="width: 100%" />
@@ -756,7 +759,7 @@ if (computedStyle.visibility === 'hidden'){
               <div style="font-size: 22px; color: grey">₱</div>
               <p class="price">₱62,440</p>
             </div>
-      
+
             <select class="optioncart" id="optioncart14" data-price="₱62,440">
               <option>(1)</option>
               <option>(2)</option>
@@ -900,12 +903,12 @@ if (computedStyle.visibility === 'hidden'){
                 var cart = document.querySelector(".addtocartdiv");
                 cart.classList.toggle("open");
               }
-      
+
               function closed() {
                 var closing = document.querySelector(".addtocartdiv");
                 closing.classList.remove("open");
               }
-      
+
               function myFunction(optionId) {
                 let select = document.querySelector("#" + optionId);
                 let option = select.options[select.selectedIndex].text;
@@ -915,7 +918,7 @@ if (computedStyle.visibility === 'hidden'){
                     " item. Do you want to proceed to checkout?"
                 );
                 let forms = document.querySelector(".form");
-      
+
                 if (confirmCheckout) {
                   forms.style.visibility = "visible";
                 } else {
@@ -923,28 +926,28 @@ if (computedStyle.visibility === 'hidden'){
                   var optionSelected = select.value;
                   var cart = document.querySelector(".addtocartdiv");
                   cart.classList.add("open");
-      
+
                   var box = select.parentNode;
                   var boxImage = box.querySelector("img").src;
                   var cartItem = document.createElement("div");
                   cartItem.classList.add("cart-item");
-      
+
                   var cartItemImage = document.createElement("img");
                   cartItemImage.src = boxImage;
                   cartItemImage.setAttribute("class", "cartimage");
                   cartItemImage.alt = "Product Image";
                   cartItem.appendChild(cartItemImage);
-      
+
                   var cartItemQuantity = document.createElement("span");
                   cartItemQuantity.setAttribute(`class`, "quantity");
                   cartItemQuantity.innerHTML = optionSelected;
-      
+
                   cartItem.appendChild(cartItemQuantity);
-      
+
                   let btnAndPrice = document.createElement("div");
                   btnAndPrice.setAttribute("class", "btn-and-price");
                   cartItem.appendChild(btnAndPrice);
-      
+
                   var clearButton = document.createElement("button");
                   clearButton.setAttribute("class", "clearitem");
                   clearButton.innerHTML = "Clear";
@@ -956,27 +959,27 @@ if (computedStyle.visibility === 'hidden'){
                     }
                   };
                   btnAndPrice.appendChild(clearButton);
-      
+
                   let unitprice = select.getAttribute("data-price");
                   let priceItem = document.createElement("span");
                   priceItem.setAttribute("class", "price-item");
                   priceItem.innerHTML = unitprice;
                   btnAndPrice.appendChild(priceItem);
-      
+
                   var cartItems = document.querySelector(".cart-items");
                   cartItems.appendChild(cartItem);
-      
+
                   var cartHeader = cart.querySelector(".cartheader");
                   if (cartItems.children.length > 0) {
                     cartHeader.innerHTML = "Your cart is:";
                   }
                 }
               }
-      
+
               function cancel() {
                 let forms = document.querySelector(".form");
                 let exit = document.querySelector(".cancelled");
-      
+
                 let confirmed = confirm("Are you sure you want to cancel?");
                 if (confirmed) {
                   forms.style.visibility = "hidden";
@@ -986,11 +989,11 @@ if (computedStyle.visibility === 'hidden'){
                 if (!confirmed) {
                   forms.style.visibility = "visible";
                 }
-      
+
                 exit.removeEventListener("click", cancelClick);
                 exit.addEventListener("click", cancelClick);
               }
-      
+
               function submit() {
                 let forms = document.querySelector(".form");
                 let proceeds = document.querySelector(".proceed");
@@ -1000,7 +1003,7 @@ if (computedStyle.visibility === 'hidden'){
                 let hideForm = function () {
                   forms.style.visibility = "hidden";
                 };
-      
+
                 proceeds.removeEventListener("click", confirmClick);
                 proceeds.removeEventListener("click", hideForm);
                 proceeds.addEventListener("click", confirmClick);
@@ -1010,12 +1013,11 @@ if (computedStyle.visibility === 'hidden'){
           </div>
         </div>
       </div>
-      
+
       <div class="copyright">
         <pre>
         Copyright © 2023 Apple Inc. All rights reserved.    <a href ="https://www.apple.com/legal/privacy/"><u>Privacy Policy</u></a>  | <a href="https://www.apple.com/legal/internet-services/terms/site.html"><u>Terms of Use</u></a>  | <a href="https://www.apple.com/shop/browse/open/salespolicies"><u>Sales and Refunds</u></a>  |  <a href="https://www.apple.com/sitemap/"><u>Legal Site Map</u></a> </PRE>
       </div>
-      </div>
-      </body>
-      </html>
-      
+    </div>
+  </body>
+</html>

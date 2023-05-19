@@ -541,6 +541,11 @@
   padding: 10px 50px;
 }
 
+.optioncart{
+ font-size: 20px;
+ border-radius: 10px;
+
+}
 
 .product {
   font-family: helvetica;

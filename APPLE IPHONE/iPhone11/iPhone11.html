@@ -41,7 +41,7 @@
         <div class="tab">
           <a href="https://www.iphonefaq.org/faq"> FAQS</a>
         </div>
-        <div class="tab cart"  onclick="toggleCart()">
+        <div class="tab cart" onclick="toggleCart()">
           <i
             class="fa fa-shopping-cart"
             style="font-size: 36px; color: white"
@@ -50,8 +50,6 @@
       </div>
     </div>
 
-
-  
     <div class="addtocartdiv">
       <h1>My Cart</h1>
       <h2 class="cartheader">Your cart is empty</h2>
@@ -61,26 +59,25 @@
       <div class="totalprice">
         <h6>Total: <span class="total-price"> </span></h6>
       </div>
-      <div class="checkout" onclick="checkout()"><button class="checkoutbutton"><h3>Proceed To Checkout:</h3></button></div>
+      <div class="checkout" onclick="checkout()">
+        <button class="checkoutbutton"><h3>Proceed To Checkout:</h3></button>
+      </div>
 
       <div class="close" onclick="closed()">
         <i class="fas fa-angle-right"></i>
       </div>
     </div>
     <script>
-    
-      function checkout(){
-        let checkoutForm = document.querySelector('.form')
-let computedStyle = getComputedStyle(checkoutForm);
-if (computedStyle.visibility === 'hidden'){
-  checkoutForm.style.visibility = "visible"
-} else {
-  checkoutForm.style.visibility = "hidden"
-}
-}
+      function checkout() {
+        let checkoutForm = document.querySelector(".form");
+        let computedStyle = getComputedStyle(checkoutForm);
+        if (computedStyle.visibility === "hidden") {
+          checkoutForm.style.visibility = "visible";
+        } else {
+          checkoutForm.style.visibility = "hidden";
+        }
+      }
     </script>
-    </div>
-    
 
     <div class="header2">
       <div class="imagebg">
@@ -96,12 +93,23 @@ if (computedStyle.visibility === 'hidden'){
           <a href="../iPhone11/GalleryiPhone11.html">Gallery</a>
         </div>
 
-        <div class="tab buy"><a href="https://www.siliconvalley.com.ph/product/apple-iphone-11/">Buy now</a></div>
+        <div class="tab buy">
+          <a href="https://www.siliconvalley.com.ph/product/apple-iphone-11/"
+            >Buy now</a
+          >
+        </div>
       </div>
     </div>
 
     <div class="videocontent">
-      <video src="../iPhoneVideo/iPhone11vid.mp4" loop controls autoplay muted width="100%"></video>
+      <video
+        src="../iPhoneVideo/iPhone11vid.mp4"
+        loop
+        controls
+        autoplay
+        muted
+        width="100%"
+      ></video>
     </div>
 
     <div class="container">
@@ -136,28 +144,27 @@ if (computedStyle.visibility === 'hidden'){
           <div class="details specification1">
             <i class="fa fa-camera" style="font-size: 300px; color: white"></i>
             <h3 class="text">
-              Dual 12MP Ultra Wide and Wide cameras
-              Ultra Wide: ƒ/2.4 aperture and 120° field of view
-              Wide: ƒ/1.8 aperture
-              2x optical zoom out
+              Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4 aperture
+              and 120° field of view Wide: ƒ/1.8 aperture 2x optical zoom out
             </h3>
           </div>
           <div class="details specification2">
             <img src="iphonecpu.png" width="300px" height="300px" />
-            <h3 class="text">A13 Bionic chip
-              6-core CPU with 2 performance and 4 efficiency cores
-              4-core GPU
-              8-core Neural Engine</h3>
+            <h3 class="text">
+              A13 Bionic chip 6-core CPU with 2 performance and 4 efficiency
+              cores 4-core GPU 8-core Neural Engine
+            </h3>
           </div>
           <div class="details specification3">
             <i
               class="fa fa-mobile-phone"
               style="font-size: 300px; color: white"
             ></i>
-            <h3 class="text">Liquid Retina HD display
-              6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology
-              1792‑by‑828‑pixel resolution at 326 ppi
-              1400:1 contrast ratio (typical)</h3>
+            <h3 class="text">
+              Liquid Retina HD display 6.1‑inch (diagonal) all-screen LCD
+              Multi-Touch display with IPS technology 1792‑by‑828‑pixel
+              resolution at 326 ppi 1400:1 contrast ratio (typical)
+            </h3>
           </div>
           <div class="details specification4">
             <i class="fa fa-shield" style="font-size: 300px; color: white"></i>
@@ -169,18 +176,19 @@ if (computedStyle.visibility === 'hidden'){
               style="font-size: 280px; color: white"
             ></i>
             <h3 class="text">
-              Up to 50% charge in 30 minutes9 with 20W adapter or higher (sold separately)
-              Built-in rechargeable lithium‑ion battery
-              Wireless charging (works with Qi chargers10)
-              Charging via USB to computer system or power adapter
+              Up to 50% charge in 30 minutes9 with 20W adapter or higher (sold
+              separately) Built-in rechargeable lithium‑ion battery Wireless
+              charging (works with Qi chargers10) Charging via USB to computer
+              system or power adapter
             </h3>
           </div>
           <div class="details specification6">
             <img src="iphoneconnection.png" width="400px" height="300px" />
-            <h3 class="text">Gigabit-class LTE with 2x2 MIMO and LAA4
-              802.11ax Wi‑Fi 6 with 2x2 MIMO
-              Bluetooth 5.0 wireless technology
-              Ultra Wideband chip for spatial awareness5</h3>
+            <h3 class="text">
+              Gigabit-class LTE with 2x2 MIMO and LAA4 802.11ax Wi‑Fi 6 with 2x2
+              MIMO Bluetooth 5.0 wireless technology Ultra Wideband chip for
+              spatial awareness5
+            </h3>
           </div>
         </div>
       </div>
@@ -430,466 +438,470 @@ if (computedStyle.visibility === 'hidden'){
           });
         }
       </script>
- 
-<div class="grid_container">
-  <div class="grid">
-    <div class="box grid1">
-      <a href="../iPhoneXR/iPhoneXR.html">
-        <img src="./iphone_xr.png" alt="" style="width: 100%" />
-      </a>
 
-      <h1>iPhone XR</h1>
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        "
-      >
-        <div style="font-size: 22px; color: grey">₱</div>
-        <p class="price">62,440</p>
-      </div>
-      <select
-        class="optioncart"
-        id="optioncart1"
-        data-price="
+      <div class="grid_container">
+        <div class="grid">
+          <div class="box grid1">
+            <a href="../iPhoneXR/iPhoneXR.html">
+              <img src="./iphone_xr.png" alt="" style="width: 100%" />
+            </a>
+
+            <h1>iPhone XR</h1>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="font-size: 22px; color: grey">₱</div>
+              <p class="price">62,440</p>
+            </div>
+            <select
+              class="optioncart"
+              id="optioncart1"
+              data-price="
         62,440"
-        onchange="quantity('optioncart1')"
-      >
-        <option>(01)</option>
-        <option>(02)</option>
-        <option>(03)</option>
-        <option>(04)</option>
-        <option>(05)</option>
-        <option>(06)</option>
-        <option>(07)</option>
-        <option>(08)</option>
-        <option>(09)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart1')">Add to Cart</button>
-    </div>
+              onchange="quantity('optioncart1')"
+            >
+              <option>(01)</option>
+              <option>(02)</option>
+              <option>(03)</option>
+              <option>(04)</option>
+              <option>(05)</option>
+              <option>(06)</option>
+              <option>(07)</option>
+              <option>(08)</option>
+              <option>(09)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart1')">Add to Cart</button>
+          </div>
 
-    <div class="box grid2">
-      <a href="../iPhoneXS/iPhoneXS.html">
-        <img src="./iphoneXS.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone XS</h1>
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        "
-      >
-        <div style="font-size: 22px; color: grey">₱</div>
-        <p class="price">42,440</p>
+          <div class="box grid2">
+            <a href="../iPhoneXS/iPhoneXS.html">
+              <img src="./iphoneXS.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone XS</h1>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="font-size: 22px; color: grey">₱</div>
+              <p class="price">42,440</p>
+            </div>
+            <select class="optioncart" id="optioncart2" data-price="₱42,440">
+              <option>(01)</option>
+              <option>(02)</option>
+              <option>(03)</option>
+              <option>(04)</option>
+              <option>(05)</option>
+              <option>(06)</option>
+              <option>(07)</option>
+              <option>(08)</option>
+              <option>(09)</option>
+              <option>(10)</option>
+            </select>
+
+            <button onclick="myFunction('optioncart2')">Add to Cart</button>
+          </div>
+          <div class="box grid3">
+            <a href="../iphoneXsMax/iPhoneXSMax.html">
+              <img src="./iphoneXSMax.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone XS Max</h1>
+            <p class="price">₱47,959,</p>
+            <p></p>
+            <select class="optioncart" id="optioncart3" data-price="₱47,959">
+              <option>(01)</option>
+              <option>(02)</option>
+              <option>(03)</option>
+              <option>(04)</option>
+              <option>(05)</option>
+              <option>(06)</option>
+              <option>(07)</option>
+              <option>(08)</option>
+              <option>(09)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart3')">Add to Cart</button>
+          </div>
+          <div class="box grid4">
+            <a href="../iPhone11/iPhone11.html">
+              <img src="./iphone11.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 11</h1>
+            <p class="price">₱43,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart4" data-price="₱43,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart4')">Add to Cart</button>
+          </div>
+          <div class="box grid5">
+            <a href="../iPhone11pro/iphone11pro.html">
+              <img
+                src="../iPhone11pro/iphone11Pro.png"
+                alt=""
+                style="width: 100%"
+              />
+            </a>
+            <h1>iPhone 11 Pro</h1>
+            <p class="price">₱47,800</p>
+            <p></p>
+            <select class="optioncart" id="optioncart5" data-price="₱47,800">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart5')">Add to Cart</button>
+          </div>
+          <div class="box grid6">
+            <a href="../iPhone11promax/iphone11promax.html">
+              <img src="./iphone11ProMax.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 11 Pro Max</h1>
+            <p class="price">₱66,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart6" data-price="₱66,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart6')">Add to Cart</button>
+          </div>
+          <div class="box grid7">
+            <a href="../iPhonese2ndgen/iPhoneSE2ndGen.html">
+              <img src="iphoneSE(2ndGen).png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone SE (2nd Gen)</h1>
+            <p class="price">₱40,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart7" data-price="₱40,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart7')">Add to Cart</button>
+          </div>
+
+          <div class="box grid8">
+            <a href="../iPhone12/iPhone12.html">
+              <img src="./iphone12.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 12</h1>
+            <p class="price">₱42,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart8" data-price="₱42,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart8')">Add to Cart</button>
+          </div>
+          <div class="box grid9">
+            <a href="../iPhone12mini/iPhone12mini.html">
+              <img src="./iphone12mini.jpg" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 12 mini</h1>
+            <p class="price">₱33,490</p>
+            <p></p>
+            <select class="optioncart" id="optioncart9" data-price="₱33,490">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart9')">Add to Cart</button>
+          </div>
+          <div class="box grid10">
+            <a href="../iPhone12pro/iPhone12pro.html">
+              <img src="./iphone12pro.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 12 Pro</h1>
+            <p class="price">₱35,950.</p>
+            <p></p>
+            <select class="optioncart" id="optioncart10" data-price="₱35,950">
+              <option>(01)</option>
+              <option>(02)</option>
+              <option>(03)</option>
+              <option>(04)</option>
+              <option>(05)</option>
+              <option>(06)</option>
+              <option>(07)</option>
+              <option>(08)</option>
+              <option>(09)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart10')">Add to Cart</button>
+          </div>
+          <div class="box grid11">
+            <a href="../iPhone12promax/iPhone12promax.html">
+              <img src="./iphone12promax.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 12 Pro Max</h1>
+            <p class="price">₱73,980</p>
+            <p></p>
+            <select class="optioncart" id="optioncart11" data-price="₱73,980">
+              <option>(01)</option>
+              <option>(02)</option>
+              <option>(03)</option>
+              <option>(04)</option>
+              <option>(05)</option>
+              <option>(06)</option>
+              <option>(07)</option>
+              <option>(08)</option>
+              <option>(09)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart11')">Add to Cart</button>
+          </div>
+          <div class="box grid12">
+            <a href="../iPhone13/iPhone13.html">
+              <img src="./iphone13.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 13</h1>
+            <p class="price">₱42,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart12" data-price="₱42,990">
+              <option>(01)</option>
+              <option>(02)</option>
+              <option>(03)</option>
+              <option>(04)</option>
+              <option>(05)</option>
+              <option>(06)</option>
+              <option>(07)</option>
+              <option>(08)</option>
+              <option>(09)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart12')">Add to Cart</button>
+          </div>
+          <div class="box grid13">
+            <a href="../iPhone13mini/iPhone13mini.html">
+              <img src="./iphone13mini.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 13 mini</h1>
+            <p class="price">₱29,798</p>
+            <p></p>
+            <select class="optioncart" id="optioncart13" data-price="₱29,798">
+              <option>(01)</option>
+              <option>(02)</option>
+              <option>(03)</option>
+              <option>(04)</option>
+              <option>(05)</option>
+              <option>(06)</option>
+              <option>(07)</option>
+              <option>(08)</option>
+              <option>(09)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart13')">Add to Cart</button>
+          </div>
+          <div class="box grid14">
+            <a href="../iPhone13pro/iPhone13pro.html">
+              <img src="./iphone13pro.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 13 Pro</h1>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="font-size: 22px; color: grey">₱</div>
+              <p class="price">₱62,440</p>
+            </div>
+
+            <select class="optioncart" id="optioncart14" data-price="₱62,440">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart14')">Add to Cart</button>
+          </div>
+          <div class="box grid15">
+            <a href="../iPhone13proMax/iphone13promax.html">
+              <img src="./iphone13promax.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 13 Pro Max</h1>
+            <p class="price">₱69,990</p>
+            <select class="optioncart" id="optioncart15" data-price="₱69,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart15')">Add to Cart</button>
+          </div>
+          <div class="box grid16">
+            <a href="../iPhoneSE3rdgen/iPhoneSE3rdgen.html">
+              <img src="./iphonese3rdgen.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone SE (3rd Gen)</h1>
+            <p class="price">₱32,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart16" data-price="₱32,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart16')">Add to Cart</button>
+          </div>
+          <div class="box grid17">
+            <a href="../iPhone14/iphone14.html">
+              <img src="./iphone14.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 14</h1>
+            <p class="price">₱30,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart17" data-price="₱30,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart17')">Add to Cart</button>
+          </div>
+          <div class="box grid18">
+            <a href="../iPhone14plus/iphone14plus.html">
+              <img src="./iphone14plus.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 14 Plus</h1>
+            <p class="price">₱56,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart18" data-price="₱56,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart18')">Add to Cart</button>
+          </div>
+          <div class="box grid19">
+            <a href="../iPhone14pro/iphone14pro.html">
+              <img src="./iphone14propic.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 14 Pro</h1>
+            <p class="price">₱70,990</p>
+            <p></p>
+            <select class="optioncart" id="optioncart19" data-price="₱70,990">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart19')">Add to Cart</button>
+          </div>
+          <div class="box grid20">
+            <a href="../iPhone14promax/iphone14promax.html">
+              <img src="./iphone14promax.png" alt="" style="width: 100%" />
+            </a>
+            <h1>iPhone 14 Pro Max</h1>
+            <p class="price">₱75,200</p>
+            <p></p>
+            <select class="optioncart" id="optioncart20" data-price="₱75,200">
+              <option>(1)</option>
+              <option>(2)</option>
+              <option>(3)</option>
+              <option>(4)</option>
+              <option>(5)</option>
+              <option>(6)</option>
+              <option>(7)</option>
+              <option>(8)</option>
+              <option>(9)</option>
+              <option>(10)</option>
+            </select>
+            <button onclick="myFunction('optioncart20')">Add to Cart</button>
+          </div>
+        </div>
       </div>
-      <select class="optioncart" id="optioncart2" data-price="₱42,440">
-        <option>(01)</option>
-        <option>(02)</option>
-        <option>(03)</option>
-        <option>(04)</option>
-        <option>(05)</option>
-        <option>(06)</option>
-        <option>(07)</option>
-        <option>(08)</option>
-        <option>(09)</option>
-        <option>(10)</option>
-      </select>
 
-      <button onclick="myFunction('optioncart2')">Add to Cart</button>
-    </div>
-    <div class="box grid3">
-      <a href="../iphoneXsMax/iPhoneXSMax.html">
-        <img src="./iphoneXSMax.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone XS Max</h1>
-      <p class="price">₱47,959,</p>
-      <p></p>
-      <select class="optioncart" id="optioncart3" data-price="₱47,959">
-        <option>(01)</option>
-        <option>(02)</option>
-        <option>(03)</option>
-        <option>(04)</option>
-        <option>(05)</option>
-        <option>(06)</option>
-        <option>(07)</option>
-        <option>(08)</option>
-        <option>(09)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart3')">Add to Cart</button>
-    </div>
-    <div class="box grid4">
-      <a href="../iPhone11/iPhone11.html">
-        <img src="./iphone11.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 11</h1>
-      <p class="price">₱43,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart4" data-price="₱43,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart4')">Add to Cart</button>
-    </div>
-    <div class="box grid5">
-      <a href="../iPhone11pro/iphone11pro.html">
-        <img
-          src="../iPhone11pro/iphone11Pro.png"
-          alt=""
-          style="width: 100%"
-        />
-      </a>
-      <h1>iPhone 11 Pro</h1>
-      <p class="price">₱47,800</p>
-      <p></p>
-      <select class="optioncart" id="optioncart5" data-price="₱47,800">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart5')">Add to Cart</button>
-    </div>
-    <div class="box grid6">
-      <a href="../iPhone11promax/iphone11promax.html">
-        <img src="./iphone11ProMax.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 11 Pro Max</h1>
-      <p class="price">₱66,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart6" data-price="₱66,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart6')">Add to Cart</button>
-    </div>
-    <div class="box grid7">
-      <a href="../iPhonese2ndgen/iPhoneSE2ndGen.html">
-        <img src="iphoneSE(2ndGen).png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone SE (2nd Gen)</h1>
-      <p class="price">₱40,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart7" data-price="₱40,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart7')">Add to Cart</button>
-    </div>
-
-    <div class="box grid8">
-      <a href="../iPhone12/iPhone12.html">
-        <img src="./iphone12.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 12</h1>
-      <p class="price">₱42,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart8" data-price="₱42,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart8')">Add to Cart</button>
-    </div>
-    <div class="box grid9">
-      <a href="../iPhone12mini/iPhone12mini.html">
-        <img src="./iphone12mini.jpg" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 12 mini</h1>
-      <p class="price">₱33,490</p>
-      <p></p>
-      <select class="optioncart" id="optioncart9" data-price="₱33,490">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart9')">Add to Cart</button>
-    </div>
-    <div class="box grid10">
-      <a href="../iPhone12pro/iPhone12pro.html">
-        <img src="./iphone12pro.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 12 Pro</h1>
-      <p class="price">₱35,950.</p>
-      <p></p>
-      <select class="optioncart" id="optioncart10" data-price="₱35,950">
-        <option>(01)</option>
-        <option>(02)</option>
-        <option>(03)</option>
-        <option>(04)</option>
-        <option>(05)</option>
-        <option>(06)</option>
-        <option>(07)</option>
-        <option>(08)</option>
-        <option>(09)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart10')">Add to Cart</button>
-    </div>
-    <div class="box grid11">
-      <a href="../iPhone12promax/iPhone12promax.html">
-        <img src="./iphone12promax.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 12 Pro Max</h1>
-      <p class="price">₱73,980</p>
-      <p></p>
-      <select class="optioncart" id="optioncart11" data-price="₱73,980">
-        <option>(01)</option>
-        <option>(02)</option>
-        <option>(03)</option>
-        <option>(04)</option>
-        <option>(05)</option>
-        <option>(06)</option>
-        <option>(07)</option>
-        <option>(08)</option>
-        <option>(09)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart11')">Add to Cart</button>
-    </div>
-    <div class="box grid12">
-      <a href="../iPhone13/iPhone13.html">
-        <img src="./iphone13.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 13</h1>
-      <p class="price">₱42,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart12" data-price="₱42,990">
-        <option>(01)</option>
-        <option>(02)</option>
-        <option>(03)</option>
-        <option>(04)</option>
-        <option>(05)</option>
-        <option>(06)</option>
-        <option>(07)</option>
-        <option>(08)</option>
-        <option>(09)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart12')">Add to Cart</button>
-    </div>
-    <div class="box grid13">
-      <a href="../iPhone13mini/iPhone13mini.html">
-        <img src="./iphone13mini.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 13 mini</h1>
-      <p class="price">₱29,798</p>
-      <p></p>
-      <select class="optioncart" id="optioncart13" data-price="₱29,798">
-        <option>(01)</option>
-        <option>(02)</option>
-        <option>(03)</option>
-        <option>(04)</option>
-        <option>(05)</option>
-        <option>(06)</option>
-        <option>(07)</option>
-        <option>(08)</option>
-        <option>(09)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart13')">Add to Cart</button>
-    </div>
-    <div class="box grid14">
-      <a href="../iPhone13pro/iPhone13pro.html">
-        <img src="./iphone13pro.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 13 Pro</h1>
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        "
-      >
-        <div style="font-size: 22px; color: grey">₱</div>
-        <p class="price">₱62,440</p>
-      </div>
-
-      <select class="optioncart" id="optioncart14" data-price="₱62,440">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart14')">Add to Cart</button>
-    </div>
-    <div class="box grid15">
-      <a href="../iPhone13proMax/iphone13promax.html">
-        <img src="./iphone13promax.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 13 Pro Max</h1>
-      <p class="price">₱69,990</p>
-      <select class="optioncart" id="optioncart15" data-price="₱69,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart15')">Add to Cart</button>
-    </div>
-    <div class="box grid16">
-      <a href="../iPhoneSE3rdgen/iPhoneSE3rdgen.html">
-        <img src="./iphonese3rdgen.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone SE (3rd Gen)</h1>
-      <p class="price">₱32,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart16" data-price="₱32,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart16')">Add to Cart</button>
-    </div>
-    <div class="box grid17">
-      <a href="../iPhone14/iphone14.html">
-        <img src="./iphone14.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 14</h1>
-      <p class="price">₱30,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart17" data-price="₱30,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart17')">Add to Cart</button>
-    </div>
-    <div class="box grid18">
-      <a href="../iPhone14plus/iphone14plus.html">
-        <img src="./iphone14plus.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 14 Plus</h1>
-      <p class="price">₱56,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart18" data-price="₱56,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart18')">Add to Cart</button>
-    </div>
-    <div class="box grid19">
-      <a href="../iPhone14pro/iphone14pro.html">
-        <img src="./iphone14propic.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 14 Pro</h1>
-      <p class="price">₱70,990</p>
-      <p></p>
-      <select class="optioncart" id="optioncart19" data-price="₱70,990">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart19')">Add to Cart</button>
-    </div>
-    <div class="box grid20">
-      <a href="../iPhone14promax/iphone14promax.html">
-        <img src="./iphone14promax.png" alt="" style="width: 100%" />
-      </a>
-      <h1>iPhone 14 Pro Max</h1>
-      <p class="price">₱75,200</p>
-      <p></p>
-      <select class="optioncart" id="optioncart20" data-price="₱75,200">
-        <option>(1)</option>
-        <option>(2)</option>
-        <option>(3)</option>
-        <option>(4)</option>
-        <option>(5)</option>
-        <option>(6)</option>
-        <option>(7)</option>
-        <option>(8)</option>
-        <option>(9)</option>
-        <option>(10)</option>
-      </select>
-      <button onclick="myFunction('optioncart20')">Add to Cart</button>
       <script>
         function toggleCart() {
           var cart = document.querySelector(".addtocartdiv");
@@ -1002,14 +1014,11 @@ if (computedStyle.visibility === 'hidden'){
           proceeds.addEventListener("click", hideForm);
         }
       </script>
-    </div>
-  </div>
-</div>
 
-<div class="copyright">
-  <pre>
+      <div class="copyright">
+        <pre>
   Copyright © 2023 Apple Inc. All rights reserved.    <a href ="https://www.apple.com/legal/privacy/"><u>Privacy Policy</u></a>  | <a href="https://www.apple.com/legal/internet-services/terms/site.html"><u>Terms of Use</u></a>  | <a href="https://www.apple.com/shop/browse/open/salespolicies"><u>Sales and Refunds</u></a>  |  <a href="https://www.apple.com/sitemap/"><u>Legal Site Map</u></a> </PRE>
-</div>
-</div>
-</body>
+      </div>
+    </div>
+  </body>
 </html>

@@ -230,10 +230,11 @@ body::-webkit-scrollbar{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'SF Pro Display';
 }
 
 .icon_access img {
-  border: 2px black solid;
+  border: 1px solid #d2d2d7;
   padding: 20px;
   border-radius: 100px;
   width: 150px;
@@ -477,4 +478,13 @@ body::-webkit-scrollbar{
     border-radius: 100px;
     width: 100px;
   }
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:#06c;
 }
