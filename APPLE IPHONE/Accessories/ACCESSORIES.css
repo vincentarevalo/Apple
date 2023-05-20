@@ -464,9 +464,12 @@ body::-webkit-scrollbar{
   color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
   body{
     width: 1450px;
+  }
+  .separator{
+    width: 100%;
   }
   .iconcontainer {
     display: flex;
